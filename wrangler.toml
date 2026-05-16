@@ -1,0 +1,11 @@
+name = "teluyo-form"
+main = "src/index.js"
+compatibility_date = "2024-02-20"
+
+[vars]
+SENDER_EMAIL = "noreply@yourdomain.com" # Must be configured in CF Email Routing
+RECIPIENT_EMAIL = "you@yourdomain.com"
+
+# Grant permission to send emails
+[[send_email]]
+name = "EMAIL_SENDER"
